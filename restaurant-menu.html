@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<meta author="GazPOV on twitch">
+
+<head>
+    <title>Welcome to Gaz's Eatery!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <header>
+        <img id="header-img" src="gaz's.png" alt="Gaz's Restaurant Logo"><br>
+        <h3>You get what you get and you'll like it!</h3>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order-form">Order Form</a></li>
+            </ul>
+    </header>
+
+    <section id="sections">
+        <h2>Menu</h2>
+            <article>
+                <img src="https://hips.hearstapps.com/hmg-prod/images/how-to-cook-steak-in-the-oven-index-66a3eda7b9f52.jpg?crop=0.6669164481079056xw:1xh;center,top&resize=1200:*" width="300px">
+                <h3>Steak</h3>
+                <p>A steak cooked how Gaz wants to cook it, slathered in butter and no steak sauce.<br>Will most likely be medium rare, as god intended.<br>$50</p>
+            </article>
+            <article>
+                <img src="https://www.modernhoney.com/wp-content/uploads/2018/08/Fettuccine-Alfredo-Recipe-1.jpg" width="300px">
+                <h3>Fettuccine Alfredo</h3>
+                <p>Gaz's favorite dish.<br>You may need to fight him for the opportunity to enjoy it's creamy goodness.<br>$100</p>
+            </article>
+            <article>
+                <img src="https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg" width="300px">
+                <h3>Borger</h3>
+                <p>Just a regular hamburger.<br>You honestly might just want to go to mcdonald's for this one.<br>$500</p>
+            </article>
+    </section>
+
+    <section id="sections">
+        <h2>Place your order</h2>
+        <form>
+            <label>Steaks:</label> <input type="number" name="steaks" min="0" max="5" value="0"><br>
+            <label>Fettuccine Alfredo:</label> <input type="number" name="fettuccine" min="0" max="5" value="0"><br>
+            <label>Borger:</label> <input type="number" name="borger" min="0" max="5" value="0"><br>
+        </form>
+        <br>
+        <p>Allergies:</p>
+        <input type="radio" name="allergies" value="none" checked> <label>None</label><br>
+        <input type="radio" name="allergies" value="nuts"> <label>Nuts</label><br>
+        <input type="radio" name="allergies" value="dairy"> <label>Dairy</label><br>
+        <br><br>
+        <p>Special Requests:</p>
+        <textarea name="special-requests" rows="4" cols="50" placeholder="Anything put here will be ignored"></textarea><br>
+        <br>
+        <input type="submit" value="Go To Checkout">
+    </section>
+
+    <footer>
+        <p>Made with love by GazPOV</p>
+    </footer>
+
+</body>
+
+</html>

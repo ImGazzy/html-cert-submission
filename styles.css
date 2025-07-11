@@ -1,0 +1,36 @@
+body {
+    background-color: #1b1633;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+}
+
+#header-img {
+    width: 75%;
+    height: auto;
+    background-color: #29224e;
+    border: 10px solid #000000;
+    border-radius: 0px 0px 100px 100px;
+}
+
+#nav-list {
+    font-size: 40px;
+    background-color: crimson;
+    border: #000000 5px groove;
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+#sections {
+    color: white;
+    background-color: black;
+    border: white 5px groove;
+    border-radius: 10px;
+    margin: 20px auto;
+}
