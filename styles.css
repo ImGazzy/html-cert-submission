@@ -27,7 +27,7 @@ header {
     align-content: center;
 }
 
-#sections {
+.sections {
     color: white;
     background-color: black;
     border: white 5px groove;
